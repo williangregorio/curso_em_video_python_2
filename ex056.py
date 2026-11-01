@@ -30,7 +30,7 @@ for p in range(1, 5):
 
 media_idade = soma_idade / 4
 
-print('A soma de todas as idades é:', soma_idade)
-print('A média de idade do grupo é: {:.1f}'.format(media_idade))
-print('O homem mais velho é:', homem_velho)
+print('A soma de todas as idades é: {} anos'.format(soma_idade))
+print('A média de idade do grupo é: {:.1f} anos'.format(media_idade))
+print('O homem mais velho é: {}'.format(homem_velho))
 print('Tivemos {} mulheres abaixo de 20 anos na pesquisa'.format(cont_mulheres))
