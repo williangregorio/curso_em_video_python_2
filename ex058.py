@@ -17,7 +17,8 @@ while resposta != True:
     if usuario == numero:
         resposta = True
         print('\nParabéns! Você \033[1;32mGANHOU!\033[m Você acertou depois de {} tentativas!!!'.format(cont))
-    if usuario > numero:
-        print('\nNão foi dessa vez! Tente um número mais baixo!')
-    if usuario < numero:
-        print('\nNão foi dessa vez! Tente um número mais alto!')
+    else:
+        if usuario > numero:
+            print('\nNão foi dessa vez! Tente um número mais baixo!')
+        elif usuario < numero:
+            print('\nNão foi dessa vez! Tente um número mais alto!')
